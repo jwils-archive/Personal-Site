@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+
+	<!-- Set the viewport width to device width for mobile -->
+	<meta name="viewport" content="width=device-width" />
+
+	<title>Joshua Wilson</title>
+  
+	<!-- Included CSS Files -->
+	<link rel="stylesheet" href="stylesheets/foundation.css">
+	<link rel="stylesheet" href="stylesheets/app.css">
+
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" href="stylesheets/ie.css">
+	<![endif]-->
+
+
+	<!-- IE Fix for HTML5 Tags -->
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+
+	<!-- container -->
+	<div class="container">
+		<div class="row">
+			<div class="twelve columns">
+				<h2>Joshua Wilson</h2>
+				<p> Website coming soon. Slowly working on it when I'm not doing homework.</p>
+				<dl class="nice contained tabs">
+					<dd><a href="#simple1" class="active">Projects</a></dd>
+					<dd><a href="#simple2">Blog</a></dd>
+					<dd><a href="#simple3">About Me</a></dd>
+					<dd><a href="#contact">Contact</a></dd>
+				</dl>
+				<hr />
+			</div>
+		</div>
+				<ul class="nice tabs-content contained">
+					<li class="active" id="simple1Tab"></li>
+					<li id="simple2Tab">This is simple tab 2's content. Now you see it!</li>
+					<li id="simple3Tab">This is simple tab 3's content. It's, you know...okay.</li>
+					<li id="contactTab">
+							<form class="nice">
+								<div class="row">
+								<div class="eight columns">
+
+								<label for="nameInput">Name</label>
+								<input type="text" class="small input-text" id="nameInput" />
+
+
+
+								<div class='form-field'>
+								<label for="emailInput">Email Address</label>
+									<input type="text" class="medium input-text" id="emailInput" />
+									<!--<small>Whoa, cowboy. Try that again.</small>-->
+								</div>
+
+								<label for="niceTextarea">Message</label>
+								<textarea id="niceTextarea" rows=10>Type Your Message Here</textarea>
+
+								<a href="#" class="large nice radius green button" id="submit">Submit</a>
+							
+							</div>
+							</div>
+							</form>
+
+					</li>
+				</ul>
+				
+			</div>
+	
+	<!-- container -->
+
+
+
+
+	<!-- Included JS Files -->
+	<script src="javascripts/jquery.min.js"></script>
+	<script src="javascripts/modernizr.foundation.js"></script>
+	<script src="javascripts/foundation.js"></script>
+	<script src="javascripts/app.js"></script>
+
+</body>
+</html>
